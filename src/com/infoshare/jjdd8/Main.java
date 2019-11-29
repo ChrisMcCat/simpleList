@@ -16,8 +16,8 @@ public class Main {
 
         System.out.println(words.contains("fox"));
 
-        System.out.println(words.isEmpty());
+        System.out.println(!words.isEmpty());
 
-        System.out.println(words.size() == 0);
+        System.out.println(words.size() == 3);
     }
 }
